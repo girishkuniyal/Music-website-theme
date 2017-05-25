@@ -1,0 +1,314 @@
+html, body {margin: 0; height: 100%;}
+#muzika{
+	position :absolute;
+	font-family: 'Clicker Script', cursive;
+	font-size : 60px;
+	color:white;
+	left:125px;
+}
+.navbar-inverse{
+	background-color:   #e74c3c   ;
+	border-color:   #e74c3c   ;
+}
+#bottomfooter{
+	min-height:35px;
+	color:white;
+}
+body {
+    padding-top: 95px;
+    padding-bottom:20px;
+    background:  #34495e  ; /* fallback for old browsers */
+
+  }
+.thumbnail{
+	-webkit-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+#thumb1{
+	 border:2px solid #1e8449;
+}
+#thumb1:hover{
+	background-color: #45b39d ;
+}
+#thumb2{
+	border:2px solid #7f8c8d;
+}
+#thumb2:hover{
+	background-color:  #85929e  ;
+}
+#thumb3{
+	border:2px solid #a569bd;
+}
+#thumb3:hover{
+	background-color:  #af7ac5   ;
+}
+#thumb4{
+	border:2px solid #dc7633;
+}
+#thumb4:hover{
+	background-color:  #e59866    ;
+}
+#thumb5{
+	border:2px solid #e74c3c;
+}
+#thumb5:hover{
+	background-color:  #ec7063     ;
+}
+#thumb6{
+	border:2px solid #f1c40f;
+}
+#thumb6:hover{
+	background-color: #f4d03f  ;
+}
+#thumb7{
+	border:2px solid  #2874a6  ;
+}
+#thumb7:hover{
+	background-color:  #2980b9  ;
+}
+#thumb8{
+	border:2px solid  #1abc9c  ;
+}
+#thumb8:hover{
+	background-color: #27ae60 ;
+}
+.thumbnail:hover{
+	border: 2px solid red;
+	transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	background-color:  #ec7063  ;
+}
+.thumbnail a{
+	text-decoration:none;
+}
+.thumbnail .caption{
+	padding:0px;
+}
+.cat-caption{
+	font-weight:bold;
+	font-size:22px;
+	
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+/*Login page css start from here*/
+#login-label{
+	font-size:25px;
+}
+#modal-body-bg{
+	background:#34495e;
+	border:2px solid white;
+}
+
+/*Song page style*/
+.song-page-title{
+	display:inline-block;	
+	color:white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size:30px;
+	border:2px dashed white;
+	padding:10px;
+	font-weight:bold;
+}
+.bg-row{
+	cursor:pointer;
+	background-color: #f5b041 ;
+	border:1px solid black;
+	transition:all 0.3s ease;
+}
+.bg-row:hover .song-icon{
+	background-color: #27ae60 ;
+}
+.bg-row:hover{
+	-webkit-transform:scaleX(1.04);
+	transform:scaleX(1.04);
+}
+.inner-element{
+	padding:5px;
+}
+.rank{
+	font-size:18px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	display:inline-block;
+	border:2px solid black;
+	border-radius:50%;
+	margin-right:10px;
+	margin-left:10px;
+	background-color: #28b463  ;
+	color: white  ;
+}
+.song-img{
+	height:80px;
+	width:75px;
+  	background:url('../resources/loading-spin.svg') no-repeat ;
+  	background-position: center center;
+}
+.song-title{
+	display:inline-block;
+	width:350px;
+	margin-left:20px;
+	font-size:20px;
+	border-right:2px solid black;
+	padding:5px;
+	
+}
+.song-movie{
+	display:inline-block;
+	width:250px;
+	margin-left:15px;
+	font-size:20px;
+	padding:5px;
+}
+.glyphicon.glyphicon-play{
+	top:10px;
+	font-size:30px;
+}
+.song-icon{
+	display:inline-block;
+	margin-left:80px;
+	height:50px;
+	width:50px;
+	text-align:center;
+	border-radius:50%;
+	transition:all 0.4s ease;
+}
+#songloader{
+	display:none;
+	margin-top:-120px;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:1000;
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.96); /* Black w/ opacity */	
+	animation:colorbackground 10s infinite;	
+}
+
+#songimage{
+	margin-top:8%;
+	height:440px;
+	width:460px;
+	margin-right:-190px;
+
+}
+#songimage:hover {
+    animation-play-state: paused
+}
+.songcaption{
+	display:inline-block;
+	width:450px;
+    	white-space: nowrap;
+	font-size:20px;
+	overflow:hidden;
+}
+#songmovetitle{
+	font-weight:bold;
+}
+.close-it{
+	display:inline-block;
+	float:right;
+	font-size:70px;
+	margin-top:100px;
+	margin-right:150px;
+}
+
+.songcaption span {
+    display: inline-block;
+    padding-left: 100%;  /* show the marquee just outside the paragraph */
+    animation: songcaptioneffect 8s linear infinite;
+}
+
+.songcaption span:hover {
+    animation-play-state: paused
+}
+
+#myaudio{
+    width:40%;
+}
+
+/* Make it move */
+@keyframes songcaptioneffect {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+@keyframes colorbackground{
+	0%{
+		background-color:rgba(231,76,60,0.96);
+	}
+	20%{
+		 background-color:rgba( 244, 208, 63 ,0.96);
+	}
+	40%{
+		background-color:rgba(46, 204, 113,0.96);
+	}
+	60%{
+		background-color:rgba( 52, 152, 219 ,0.96);
+	}
+	80%{
+		background-color:rgba( 142, 68, 173,0.96);
+	}
+	100%{
+		background-color:rgba(231,76,60,0.96);
+	}	
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .90 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .90 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .90 );
+  }
+  100%
+  {
+    transform: scale( .90 );
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#rank1{ background-color: #28b463  ;}
+#rank2{	background-color: #28b463  ;}
+#rank3{	background-color: #28b463  ;}
+#rank4{	background-color: #28b463  ;}
+#rank5{	background-color: #28b463  ;}
+#rank6{	background-color: #28b463  ;}
+#rank7{	background-color: #28b463  ;}
+#rank8{	background-color: #28b463  ;}
+#rank9{	background-color: #28b463  ;}
+#rank10{background-color: #28b463  ;}
+#rank11{background-color: #28b463  ;}
+#rank12{background-color: #28b463  ;}
+#rank13{background-color: #28b463  ;}
+#rank14{background-color: #28b463  ;}
+#rank15{background-color: #28b463  ;}
+
+
+
