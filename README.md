@@ -17,7 +17,7 @@ Muzika is a music website theme which can be used to stream online music via HTM
 
 ### How to use : 
 1. Rename all fields like website name and about page according to your site.
-2. Upload song on webserver like amazon , one drive or dropbox.with file hierarchy.
+2. Upload song on webserver like amazon web services, one drive or dropbox.with file hierarchy.
 ```
     /category_name/poster/*.jpg
     /category_name/song/*.mp3
