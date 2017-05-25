@@ -2,7 +2,7 @@
 
 ![UI Desktop](https://img.shields.io/badge/UI-desktop-blue.svg) ![status unstable](https://img.shields.io/badge/status-unstable-ff69b4.svg)
 
-Muzika is a music website theme which can be used to stream online music via HTML5 player right on your browser. Click [here](http://muzikaa.000webhostapp.com) to see the demo.
+Muzika is a music website theme which can be used to stream online music via HTML5 . Click [here](http://muzikaa.000webhostapp.com) to see the demo.
 #### Dependencies
 
   - php 7
